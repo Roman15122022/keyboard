@@ -100,10 +100,10 @@ keys.forEach((key)=>{
             caps = false;
         }
         else if (event.target.classList.contains('MetaLeft')){
-            return;
+
         }
         else if (event.target.classList.contains('shift')){
-            return;
+
         }
         else if (event.target.classList.contains('ctr')){
 
@@ -149,7 +149,7 @@ document.addEventListener('keydown',(event)=>{
         event.preventDefault(); // Отменяем стандартное поведение браузера
     }
     else if (event.keyCode === 91) { // Meta
-        return;
+
     }
     else if (event.keyCode === 20){ //Caps-lock
 
